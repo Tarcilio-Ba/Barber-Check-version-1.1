@@ -1,0 +1,16 @@
+module.exports = {
+<<<<<<< HEAD
+    authSecret: '',
+}
+   
+=======
+    authSecret: '1212121212121212',
+    db: {
+        host : '127.0.0.1',
+        port: 5432,
+        database: 'barbercheck1',
+        user: 'postgres',
+        password: '123456'
+    }
+}
+>>>>>>> c6887b3800e15074acd8623538d5c1d3b1e07721
