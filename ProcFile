@@ -2,3 +2,4 @@ web: git remote rename heroku heroku-staging;
 web: git push heroku master;
 web: heroku git:remote -a Barber-Check-version-1.1/backend_sem_node_modules 27-01-21;
 web: heroku git:remote -a Barber-Check-version-1.1/front_sem_node_modules;
+web: java $JAVA_OPTS -cp target/classes:target/dependency/*
